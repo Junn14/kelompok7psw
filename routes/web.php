@@ -24,6 +24,9 @@ Route::get('text', function() {
     return view('frontend.payments.success');
 });
 
+
+Route::get('/about-us', [\App\Http\Controllers\AboutUsController::class,'index'])->name('frontend.about-us');
+
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('homepage');
 
 Route::get('search', [\App\Http\Controllers\ShopController::class, 'search'])->name('search');
@@ -71,6 +74,8 @@ Route::group(['middleware' => 'auth'], function() {
 
         Route::get('reports/revenue', [\App\Http\Controllers\Admin\ReportController::class, 'revenue'])->name('reports.revenue');
     });
+
+    
 });
 
 Auth::routes();

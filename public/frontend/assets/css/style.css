@@ -4383,7 +4383,7 @@ a.banner-book-style-btn:hover {
 
 .icon-cart-furniture i {
     color: #00245b;
-    font-size: 35px;
+    font-size: 28px;
 }
 a.icon-cart-furniture {
     display: block;
@@ -9630,3 +9630,30 @@ input.cart-plus-minus-box {
 .modal-content .close:hover {
     color: #050035;
 }
+
+
+/*about page */
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 200%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+#about-head div{
+    padding-left: 40px;
+    height: auto;
+    padding-top: 30px;
+}
+
+.text-justify{
+   text-align: justify;
+   width: 500px;
+   height: 150px;
+}
+

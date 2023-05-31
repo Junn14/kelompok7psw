@@ -64,8 +64,8 @@
                             <img src="{{ asset('frontend/assets/img/icon-img/26.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>Free Shippig</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <h4>Shipping</h4>
+                            <p>. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -74,7 +74,7 @@
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -83,7 +83,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Secure Payments</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>. </p>
                         </div>
                     </div>
                 </div>
