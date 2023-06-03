@@ -187,47 +187,63 @@
         @yield('content')
 
         <!-- footer -->
-        <footer class="footer-area">
-            <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
-                <div class="container-fluid">
-                    <div class="widget-wrapper">
-                        <div class="footer-widget mb-30">
-                        <img height="60" style="transform:scale(1.8);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/Meraki.svg') }}" alt="">
-                            <div class="footer-about-2">
-                                <p>There are many variations of passages <br>the majority  <br> injected humour</p>
-                            </div>
-                        </div>
-                        <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Contact Info</h3>
-                            <div class="footer-info-wrapper-3">
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Address: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>Batam <br>Indonesia- </p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Phone: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>+6239-3233-2333 <br>+6283-3233-2333</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>E-mail: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p><a href="#"> Meraki@gmail.com</a> <br><a href="#"> Meraki@gmail.info</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-widget mb-30">
-                
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    </header>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Payment Method</h3>
+            <div class="credit-cards">
+                <img src="frontend/assets/img/icon-img/3.png" alt="">
+                <img src="img/mastercard.png" alt="">
+                <img src="img/paypal.png" alt="">
+            </div>
+            <p class="footer-copyright">2023</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Indonesia</span> Kepulauan riau, Batam</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 777-777-77</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">meraki@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-about">
+                     <a href="{{ route('frontend.about-us') }}">About</a>
+                Thrift online shop
+            </p>
+
+            <div class="footer-media">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
                                   
                                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             
@@ -239,7 +255,6 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom ptb-20 gray-bg-8">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">

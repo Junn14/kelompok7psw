@@ -1,13 +1,13 @@
 @extends('layouts.frontend')
 @section('title', 'Favorite Items')
 @section('content')
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/bg/bgfav.jpeg') }})">
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('frontend/assets/img/banner/shirt-5.jpg') }})">
 		<div class="container-fluid">
 			<div class="breadcrumb-content text-center">
-				<h2>About Us</h2>
+				<h2>ABOUT US</h2>
 				<ul>
 					<li><a href="{{ url('/') }}">home</a></li>
-					<li>About - Us</li>
+					<p>About - Us</p>
 				</ul>
 			</div>
 		</div>
@@ -20,14 +20,12 @@
               <section id="about-head" class="section-p1">
                 <img src="frontend/assets/img/logo/a6.jpg" alt="">
                 <div>
-                <h2 class-="text-justify">Who we are?</h2>
+                <h1 class-="text-justify">Who we are?</h1>
                 <p class="text-justify">Welcome to our website, where we introduce our online thrift shop with a philanthropic mission! We not only offer a wide selection of affordable secondhand items 
                     but also dedicate a portion of our profits to support orphanages. In this blog, we will delve into the details of our social initiative, the impact it creates, 
                     and how you can contribute to making a difference. Let's get started!</p>
-
-                <abbr class="text-justify" title="">Every time you make a purchase from our online thrift shop, a percentage of the profits goes directly to orphanages.
-                     Your contribution helps fund essential resources, including food, clothing, education, healthcare, and other crucial needs. By indulging in your love for fashion,
-                      you simultaneously make a positive impact on the lives of vulnerable children. It's fashion with heart!</abbr>
+                    <h3>Why We Donate to Orphanages</h3>
+                <abbr class="text-justify" title="">We firmly believe in using our business platform to give back to society and support those in need. Orphanages play a vital role in providing care, shelter, and education to children who lack stable family environments. By donating a portion of our profits, we aim to contribute to the well-being and development of these children, helping them lead better lives.</abbr>
 
                 <br><br>
 
@@ -43,7 +41,7 @@
                      Our online thrift shop offers an extensive range of fashion-forward items for every style and occasion. From trendy clothing pieces to vintage clothing pieces, you'll find unique and pre-loved treasures that won't break the bank. We ensure that all items undergo a thorough quality check before being made available for purchase. By embracing thrift fashion, you not only save money but also reduce waste and support sustainable practices in the fashion industry.
                  </p>
 
-                <abbr  title="">E</abbr>
+                <abbr  title=""></abbr>
 
                 <br><br>
 

@@ -61,29 +61,29 @@
                 <div class="services-wrapper mt-40">
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/26.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/shipped.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>Shipping</h4>
-                            <p>. </p>
+                            <p> Fast and secure shipping to your doorstep.</p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/27.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/customer.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
-                            <p>. </p>
+                            <p>Ensuring customer satisfaction with 24/7 support on the website.</p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/28.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/bank-card.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>Secure Payments</h4>
-                            <p>. </p>
+                            <p>Providing a secure payment process on our website. </p>
                         </div>
                     </div>
                 </div>

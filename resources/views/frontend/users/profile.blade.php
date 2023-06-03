@@ -26,7 +26,7 @@
                         <ul>
                             <li><a href="{{ url('profile') }}">Profile</a></li>
                             <li><a href="{{ url('orders') }}">Orders</a></li>
-                            <li><a href="{{ url('favorites') }}">Favorites</a></li>
+                            <li><a href="{{ url('favorite') }}">Favorites</a></li>
                         </ul>
                     </div>
 				</div>
